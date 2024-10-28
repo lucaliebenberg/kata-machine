@@ -19,7 +19,7 @@ export default class MinHeap {
         // take head, get value out
         const out = this.data[0];
         this.length--;
-        if (this.length === 0) {
+        if (this.length === 0 ) {
             this.data = [];
             return out;
         }
